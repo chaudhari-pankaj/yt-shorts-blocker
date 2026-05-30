@@ -49,51 +49,6 @@ function shortsremover() {
 
 document.addEventListener('yt-navigate-finish', shortsremover);
 // Choose a different event depending on when you want to apply the change
-// document.addEventListener('yt-navigate-finish', process);
 
 if (document.body) shortsremover();
 else document.addEventListener('DOMContentLoaded', shortsremover);
-
-
-// // Execute the initial observer setup when the page is loaded
-// window.onload = function() {
-//     console.log('window_onloaded hide_youtube_shorts');
-//     initializeObserver();  // Initialize the observer after page load
-// };
-// function checkScrollPosition() {
-//     // Calculate the current scroll position and the total document height
-//     const scrollPosition = window.scrollY + window.innerHeight;
-//     const documentHeight = document.documentElement.scrollHeight;
-
-//     // Define a threshold (e.g., 100 pixels) before reaching the bottom
-//     const threshold = 700;
-
-//     // Check if the scroll position is within the threshold of the bottom
-//     if (scrollPosition >= documentHeight - threshold) {
-//         // Your function to execute when the bottom is reached
-//         console.log('Bottom of the page reached');
-//         shortsremover();
-//     }
-// }
-
-// // Add the scroll event listener
-// window.addEventListener('scroll', checkScrollPosition);
-
-// function checkScrollPosition() {
-//     // Calculate the current scroll position and the total document height
-//     const scrollPosition = window.scrollY + window.innerHeight;
-//     const documentHeight = document.documentElement.scrollHeight;
-
-//     // Define a threshold as a percentage of the viewport height (e.g., 80%)
-//     const threshold = 0.5 * window.innerHeight;
-
-//     // Check if the scroll position is within the threshold of the bottom
-//     if (scrollPosition >= documentHeight - threshold) {
-//         // Your function to execute when the bottom is reached
-//         console.log('Approaching the bottom of the page');
-//         shortsremover();
-//     }
-// }
-
-// // Add the scroll event listener
-// window.addEventListener('scroll', checkScrollPosition);
