@@ -2,7 +2,7 @@ This browser extension hides short form content from the YouTube feed.
 
 Disclaimer
 
-This browser extension was created solely as a personal experiment to explore and apply the skills I've learned while building it.
+This browser extension was created solely as a personal experiment to explore and apply the skills I've learned.
 
 This project is not intended for distribution in any format
 
